@@ -1,0 +1,48 @@
+<!-- @dsCard group="Colors" viewport="700x200" name="Semantic tokens in use" subtitle="Surface, text, border & icon aliases — light + dark" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; font-family: var(--font-sans); }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; }
+  .pane { padding: 22px; }
+  .pane.light { background: var(--color-background-canvas); }
+  .demo { background: var(--color-surface-default); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-card); padding: 16px; box-shadow: var(--shadow-sm); }
+  .demo h4 { margin: 0 0 4px; font-size: 14px; color: var(--color-text-primary); }
+  .demo p { margin: 0 0 12px; font-size: 12.5px; color: var(--color-text-muted); }
+  .bar { display: flex; gap: 8px; align-items: center; }
+  .pill { font-size: 11px; padding: 3px 8px; border-radius: 999px; }
+  .tag { font-size: 10px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 12px; }
+</style>
+</head>
+<body>
+<div class="grid">
+  <div class="pane light">
+    <div class="tag">Light</div>
+    <div class="demo">
+      <h4>Surface · text · border</h4>
+      <p>Aliases adapt automatically across themes.</p>
+      <div class="bar">
+        <span class="pill" style="background:var(--color-surface-brand);color:var(--color-text-brand)">brand</span>
+        <span class="pill" style="background:var(--color-surface-sunken);color:var(--color-text-secondary)">sunken</span>
+        <span class="pill" style="border:1px solid var(--color-border-default);color:var(--color-text-muted)">border</span>
+      </div>
+    </div>
+  </div>
+  <div class="pane light" data-theme="dark" style="background:var(--color-background-app)">
+    <div class="tag">Dark</div>
+    <div class="demo">
+      <h4>Surface · text · border</h4>
+      <p>Same tokens, dark mode values.</p>
+      <div class="bar">
+        <span class="pill" style="background:var(--color-surface-brand);color:var(--color-text-brand)">brand</span>
+        <span class="pill" style="background:var(--color-surface-sunken);color:var(--color-text-secondary)">sunken</span>
+        <span class="pill" style="border:1px solid var(--color-border-default);color:var(--color-text-muted)">border</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

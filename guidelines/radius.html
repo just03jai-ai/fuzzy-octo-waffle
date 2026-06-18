@@ -1,0 +1,30 @@
+<!-- @dsCard group="Spacing" viewport="700x170" name="Radius" subtitle="--radius-xs … pill · control = 8, card = 12, overlay = 16" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--color-surface-default); font-family: var(--font-sans); }
+  .wrap { padding: 26px 28px; display: flex; gap: 22px; align-items: flex-end; }
+  .item { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .demo { width: 76px; height: 64px; background: var(--color-surface-brand); border: 1.5px solid var(--color-brand-500); border-bottom: none; }
+  .v { font-size: 12px; font-weight: 600; color: var(--color-text-primary); }
+  .t { font-size: 10.5px; color: var(--color-text-muted); font-family: var(--font-mono); }
+</style>
+</head>
+<body>
+<div class="wrap" id="wrap"></div>
+<script>
+  const radii = [['xs',4],['sm',6],['md',8],['lg',12],['xl',16],['2xl',24],['pill',999]];
+  const w = document.getElementById('wrap');
+  radii.forEach(([name, px]) => {
+    const r = px === 999 ? '999px 999px 0 0' : `${px}px ${px}px 0 0`;
+    const item = document.createElement('div');
+    item.className = 'item';
+    item.innerHTML = `<div class="demo" style="border-radius:${r}"></div><div class="v">${px === 999 ? 'full' : px}</div><div class="t">${name}</div>`;
+    w.appendChild(item);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!-- @dsCard group="Spacing" viewport="700x190" name="Elevation / Shadows" subtitle="xs → xl · soft, slate-tinted ambient shadows" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--color-background-canvas); font-family: var(--font-sans); }
+  .wrap { padding: 30px 28px; display: flex; gap: 26px; align-items: center; }
+  .item { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .demo { width: 96px; height: 70px; background: var(--color-surface-default); border-radius: var(--radius-lg); border: 1px solid var(--color-border-subtle); }
+  .v { font-size: 12px; font-weight: 600; color: var(--color-text-primary); }
+  .t { font-size: 10.5px; color: var(--color-text-muted); font-family: var(--font-mono); }
+</style>
+</head>
+<body>
+<div class="wrap" id="wrap"></div>
+<script>
+  const sh = ['xs','sm','md','lg','xl'];
+  const w = document.getElementById('wrap');
+  sh.forEach(name => {
+    const item = document.createElement('div');
+    item.className = 'item';
+    item.innerHTML = `<div class="demo" style="box-shadow:var(--shadow-${name})"></div><div class="v">${name}</div><div class="t">--shadow-${name}</div>`;
+    w.appendChild(item);
+  });
+</script>
+</body>
+</html>

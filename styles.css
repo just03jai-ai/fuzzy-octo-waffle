@@ -1,0 +1,12 @@
+/* ============================================================
+   ATLAS DESIGN SYSTEM — global stylesheet entry point
+   A scalable, minimal, modern system for SaaS, mobile, dashboards,
+   AI products, internal tools & marketplaces.
+   Consumers link THIS file only. Imports below resolve the full
+   token + font closure. Keep this file @import-only.
+   ============================================================ */
+
+@import "./tokens/fonts.css";
+@import "./tokens/fig-tokens.css";   /* primitives + semantic colors + theme modes (light/dark/HC) */
+@import "./tokens/typography.css";   /* type ramp + family stacks */
+@import "./tokens/semantic.css";     /* unit-bearing spacing / radius / shadow / motion */

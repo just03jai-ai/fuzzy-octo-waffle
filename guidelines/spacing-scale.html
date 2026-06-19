@@ -1,0 +1,31 @@
+<!-- @dsCard group="Spacing" viewport="700x190" name="Spacing scale" subtitle="4px base · --space-1 … --space-24" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--color-surface-default); font-family: var(--font-sans); }
+  .wrap { padding: 24px 28px; display: flex; align-items: flex-end; gap: 14px; }
+  .item { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .bar { background: var(--color-brand-500); border-radius: var(--radius-xs); width: 100%; }
+  .box { display: flex; align-items: flex-end; justify-content: center; }
+  .v { font-size: 11px; font-weight: 600; color: var(--color-text-primary); font-variant-numeric: tabular-nums; }
+  .t { font-size: 10px; color: var(--color-text-muted); font-family: var(--font-mono); }
+</style>
+</head>
+<body>
+<div class="wrap" id="wrap"></div>
+<script>
+  const scale = [['1',4],['2',8],['3',12],['4',16],['5',20],['6',24],['8',32],['10',40],['12',48],['16',64]];
+  const w = document.getElementById('wrap');
+  scale.forEach(([name, px]) => {
+    const item = document.createElement('div');
+    item.className = 'item';
+    item.style.width = px + 'px';
+    item.innerHTML = `<div class="box" style="height:${px}px;width:${px}px"><div class="bar" style="height:${px}px"></div></div><div class="v">${px}</div><div class="t">${name}</div>`;
+    w.appendChild(item);
+  });
+</script>
+</body>
+</html>

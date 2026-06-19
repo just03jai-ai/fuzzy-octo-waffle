@@ -1,0 +1,25 @@
+<!-- @dsCard group="Type" viewport="700x260" name="Display & Headings" subtitle="Inter — the Atlas display ramp" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--color-surface-default); font-family: var(--font-sans); color: var(--color-text-primary); }
+  .wrap { padding: 24px 28px; display: flex; flex-direction: column; gap: 16px; }
+  .row { display: flex; align-items: baseline; gap: 18px; border-bottom: 1px solid var(--color-border-subtle); padding-bottom: 14px; }
+  .row:last-child { border-bottom: none; }
+  .spec { width: 130px; flex: none; font-size: 11px; color: var(--color-text-muted); font-family: var(--font-mono); line-height: 1.5; }
+  .sample { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="row"><div class="spec">display-lg<br/>48 / 600</div><div class="sample t-display-lg">Build once, reuse</div></div>
+  <div class="row"><div class="spec">display-md<br/>36 / 600</div><div class="sample t-display-md">Build once, reuse everywhere</div></div>
+  <div class="row"><div class="spec">heading-xl<br/>30 / 600</div><div class="sample t-heading-xl">Section heading</div></div>
+  <div class="row"><div class="spec">heading-lg<br/>24 / 600</div><div class="sample t-heading-lg">Card and panel titles</div></div>
+  <div class="row"><div class="spec">heading-md<br/>20 / 600</div><div class="sample t-heading-md">Subsection heading style</div></div>
+</div>
+</body>
+</html>

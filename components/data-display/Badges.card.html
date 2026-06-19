@@ -1,0 +1,69 @@
+<!-- @dsCard group="Components" viewport="700x340" name="Badges, Tags & Avatars" subtitle="Status badges, removable tags, avatar group" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="../../styles.css" />
+<style>
+  body { margin: 0; background: var(--color-background-canvas); font-family: var(--font-sans); }
+  .wrap { padding: 28px; display: flex; flex-direction: column; gap: 22px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .lbl { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 10px; }
+  .group { border-top: 1px solid var(--color-border-subtle); padding-top: 16px; }
+</style>
+</head>
+<body>
+<div id="root" class="wrap"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script type="text/babel">
+const { Badge, Tag, Avatar } = window.AtlasDesignSystem_221c8f;
+function Demo() {
+  const [tags, setTags] = React.useState(["Design", "Research", "Roadmap", "Q3"]);
+  return (
+    <React.Fragment>
+      <div>
+        <div className="lbl">Badges — soft</div>
+        <div className="row">
+          <Badge tone="neutral" dot>Draft</Badge>
+          <Badge tone="brand">New</Badge>
+          <Badge tone="success" dot>Live</Badge>
+          <Badge tone="warning">Pending</Badge>
+          <Badge tone="danger" dot>Failed</Badge>
+          <Badge tone="info">Beta</Badge>
+          <Badge tone="ai">AI</Badge>
+        </div>
+      </div>
+      <div className="group">
+        <div className="lbl">Badges — solid &amp; pill</div>
+        <div className="row">
+          <Badge tone="brand" solid>3</Badge>
+          <Badge tone="success" solid pill>Active</Badge>
+          <Badge tone="danger" solid pill>Overdue</Badge>
+          <Badge tone="neutral" solid pill>v2.4.0</Badge>
+        </div>
+      </div>
+      <div className="group">
+        <div className="lbl">Tags &amp; avatars</div>
+        <div className="row" style={{ marginBottom: 16 }}>
+          {tags.map((t) => <Tag key={t} color="#2563EB" onRemove={() => setTags(tags.filter(x => x !== t))}>{t}</Tag>)}
+        </div>
+        <div className="row">
+          <Avatar name="Ada Lovelace" status="online" />
+          <Avatar name="Grace Hopper" status="away" />
+          <Avatar name="Alan Turing" shape="square" />
+          <Avatar.Group max={3}>
+            <Avatar name="Ada L" /><Avatar name="Grace H" /><Avatar name="Alan T" /><Avatar name="Edsger D" /><Avatar name="Linus T" />
+          </Avatar.Group>
+        </div>
+      </div>
+    </React.Fragment>
+  );
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+</script>
+</body>
+</html>

@@ -1,0 +1,720 @@
+{
+  "runId": "atlas-figma-sync-2026-06-20",
+  "fileKey": "1sDGtO7k7eCxT9vbnRZeeq",
+  "fileName": "Global UI Industry Wide",
+  "branch": "figma-collaboration",
+  "phase": "phase3-in-progress",
+  "step": "component-table-complete",
+  "source": {
+    "typography": "tokens/typography.css",
+    "effects": "tokens/semantic.css",
+    "variables": "tokens/fig-tokens.css"
+  },
+  "entities": {
+    "variables": {
+      "collectionsUpdated": 12,
+      "variablesUpdated": 574,
+      "webCodeSyntaxMissing": 0,
+      "allScopesRemaining": 9,
+      "nonBooleanAllScopesRemaining": 0,
+      "booleanAllScopesRemaining": [
+        "a11y/motion/reduced",
+        "a11y/motion/allow-parallax",
+        "a11y/motion/allow-autoplay",
+        "a11y/state/error-requires-text",
+        "a11y/state/loading-requires-label",
+        "a11y/state/ai-requires-disclosure",
+        "a11y/state/disabled-requires-contrast",
+        "motion/reduced/enabled",
+        "motion/reduced/disable-autoplay"
+      ]
+    },
+    "textStyles": {
+      "Atlas/Display/Large": "S:a89397e6d6c822b5e51d6e20f72db0745340f0e3,",
+      "Atlas/Display/Medium": "S:023a8239998970f1ec3f8b4cbc06720166cd1b8e,",
+      "Atlas/Heading/XL": "S:6a161e5e18ec09309975da8ac14590f28c37974c,",
+      "Atlas/Heading/Large": "S:2980a0846ae8718144909232be988731ad75a74a,",
+      "Atlas/Heading/Medium": "S:edfa67a0a877bac9a2af82df87eefb56acb76f7d,",
+      "Atlas/Heading/Small": "S:fc2af19205eecd8eb2f5c5226ca05996aadef41c,",
+      "Atlas/Body/Large": "S:5e383b234ae8ae668ba9755dc9ae7d7066f93a51,",
+      "Atlas/Body/Medium": "S:e1f986de1d9d9180ffe356fc887ad9b9725bd052,",
+      "Atlas/Body/Small": "S:89f88b2829e2c750cb9741ee8d1c3d54f732f8b4,",
+      "Atlas/Label/Large": "S:105563ad2719f2a61ab2201b5fd1d108312f6ce6,",
+      "Atlas/Label/Medium": "S:e55065e1b130bddc8b6396b7929adb70508f10d2,",
+      "Atlas/Label/Small": "S:f43abb0f21af2630ff883fa51cb06dca6dbba657,",
+      "Atlas/Caption": "S:b66947f591166ee67fa28222a02ca489d80b730c,",
+      "Atlas/Overline": "S:2fe4f9575b2604d57239ba3a3a9789abd001abc8,",
+      "Atlas/Code/Base": "S:146190fda7612f2d69b5bf3ac9ab8a14dc470f21,"
+    },
+    "effectStyles": {
+      "Atlas/Shadow/XS": "S:06a44b29203e7953de127a9f546656719d986487,",
+      "Atlas/Shadow/SM": "S:19d2cf08a7e8e537126e39dc662bfc11ff323405,",
+      "Atlas/Shadow/MD": "S:72e9cb7f7cf25cba481799102042380f582338e2,",
+      "Atlas/Shadow/LG": "S:cec51f04ab13e036f843cebfedc508dbed716172,",
+      "Atlas/Shadow/XL": "S:2e0a95a0c72986042f87c4109774e99aefe3ba1a,",
+      "Atlas/Shadow/Focus": "S:ac6b6205dbaaa35a5f8d2875789b290a3e2c97cb,",
+      "Atlas/Shadow/AI": "S:50a48b09d0761770964755a96f950fd8681a8e72,"
+    },
+    "pages": {
+      "Cover": "57:2",
+      "Getting Started": "88:14",
+      "Foundations": "58:14",
+      "--- Components ---": "57:76",
+      "Forms": "88:15",
+      "Navigation": "88:16",
+      "Feedback": "88:17",
+      "Data Display": "88:18",
+      "Overlays": "88:19",
+      "--- Product Patterns ---": "88:20",
+      "Charts": "88:21",
+      "Tables": "88:22",
+      "AI Patterns": "88:23",
+      "Commerce": "88:24",
+      "Mobile": "88:25",
+      "--- Templates ---": "88:26",
+      "SaaS": "88:27",
+      "AI Template": "88:28",
+      "Marketplace": "88:29",
+      "CRM": "88:30",
+      "Internal Tool": "88:31",
+      "Button": "95:14",
+      "IconButton": "101:14",
+      "Checkbox": "103:14",
+      "Radio": "105:14",
+      "Switch": "107:14",
+      "Input": "110:14",
+      "Textarea": "113:14",
+      "Select": "115:14",
+      "Avatar": "118:14",
+      "Badge": "120:14",
+      "Tag": "121:14",
+      "Card": "125:14",
+      "Table": "128:14"
+    },
+    "documentationFrames": {
+      "Getting Started": "90:14",
+      "Foundations": "91:14",
+      "Button": "95:15",
+      "IconButton": "101:15",
+      "Checkbox": "103:15",
+      "Radio": "105:15",
+      "Switch": "107:15",
+      "Input": "110:15",
+      "Textarea": "113:15",
+      "Select": "115:15",
+      "Avatar": "118:15",
+      "Badge": "120:15",
+      "Tag": "121:15",
+      "Card": "125:15",
+      "Table": "128:15"
+    },
+    "phase2Validation": {
+      "status": "phase2_validated",
+      "pageCount": 21,
+      "missingPages": 0,
+      "unexpectedPages": 0,
+      "orderMatches": true,
+      "foundationsSections": [
+        "Header",
+        "Section/Token architecture",
+        "Section/Colors",
+        "Section/Typography",
+        "Section/Spacing",
+        "Section/Radius",
+        "Section/Elevation"
+      ]
+    },
+    "icons": {
+      "Icon/Plus": "95:22",
+      "Icon/ArrowRight": "95:25",
+      ".Button/Spinner": "95:26",
+      "Icon/ChevronDown": "115:22"
+    },
+    "componentSets": {
+      "Button": {
+        "Primary": "97:149",
+        "Secondary": "97:285",
+        "Ghost": "97:421",
+        "Destructive": "97:557",
+        "Link": "97:693"
+      },
+      "IconButton": {
+        "Ghost": "101:305",
+        "Solid": "101:366",
+        "Outline": "101:427"
+      },
+      "Checkbox": "103:152",
+      "Radio": "105:68",
+      "Switch": "107:164",
+      "Input": "110:389",
+      "Textarea": "113:76",
+      "Select": "115:128",
+      "Avatar": {
+        "Circle": "118:135",
+        "Square": "118:251"
+      },
+      "Badge": {
+        "Soft/Rounded": "120:82",
+        "Soft/Pill": "120:156",
+        "Solid/Rounded": "120:230",
+        "Solid/Pill": "120:304"
+      },
+      "Tag": "121:47",
+      "Card": {
+        "Flat": "125:175",
+        "Raised": "125:339",
+        "Elevated": "125:503"
+      },
+      "Table": "128:979"
+    },
+    "components": {
+      "Button": {
+        "page": "95:14",
+        "docFrame": "95:15",
+        "screenshotArea": "97:724",
+        "sourcePath": "components/forms/Button.jsx",
+        "variantSets": 5,
+        "variantsPerSet": 15,
+        "totalVariants": 75,
+        "axes": {
+          "Size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "State": [
+            "Default",
+            "Hover",
+            "Pressed",
+            "Focused",
+            "Disabled"
+          ],
+          "Style": [
+            "Primary",
+            "Secondary",
+            "Ghost",
+            "Destructive",
+            "Link"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Show leading icon",
+          "Show trailing icon",
+          "Loading",
+          "Leading icon",
+          "Trailing icon"
+        ],
+        "validation": {
+          "status": "button_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "97:724"
+        }
+      },
+      "IconButton": {
+        "page": "101:14",
+        "docFrame": "101:15",
+        "screenshotArea": "101:446",
+        "sourcePath": "components/forms/IconButton.jsx",
+        "variantSets": 3,
+        "variantsPerSet": 15,
+        "totalVariants": 45,
+        "axes": {
+          "Size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "State": [
+            "Default",
+            "Hover",
+            "Pressed",
+            "Focused",
+            "Disabled"
+          ],
+          "Variant": [
+            "Ghost",
+            "Solid",
+            "Outline"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Icon"
+        ],
+        "validation": {
+          "status": "iconbutton_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "101:446"
+        }
+      },
+      "Checkbox": {
+        "page": "103:14",
+        "docFrame": "103:15",
+        "screenshotArea": "103:162",
+        "sourcePath": "components/forms/Checkbox.jsx",
+        "variantSets": 1,
+        "variantsPerSet": 12,
+        "totalVariants": 12,
+        "axes": {
+          "Selection": [
+            "Unchecked",
+            "Checked",
+            "Indeterminate"
+          ],
+          "State": [
+            "Default",
+            "Focused",
+            "Error",
+            "Disabled"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Description"
+        ],
+        "validation": {
+          "status": "checkbox_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "103:162"
+        }
+      },
+      "Radio": {
+        "page": "105:14",
+        "docFrame": "105:15",
+        "screenshotArea": "105:73",
+        "sourcePath": "components/forms/Radio.jsx",
+        "variantSets": 1,
+        "variantsPerSet": 6,
+        "totalVariants": 6,
+        "axes": {
+          "Selection": [
+            "Unselected",
+            "Selected"
+          ],
+          "State": [
+            "Default",
+            "Focused",
+            "Disabled"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Description"
+        ],
+        "validation": {
+          "status": "radio_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "105:73"
+        }
+      },
+      "Switch": {
+        "page": "107:14",
+        "docFrame": "107:15",
+        "screenshotArea": "107:169",
+        "sourcePath": "components/forms/Switch.jsx",
+        "variantSets": 1,
+        "variantsPerSet": 18,
+        "totalVariants": 18,
+        "axes": {
+          "Size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "Selection": [
+            "Off",
+            "On"
+          ],
+          "State": [
+            "Default",
+            "Focused",
+            "Disabled"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Description"
+        ],
+        "validation": {
+          "status": "switch_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "107:169"
+        }
+      },
+      "Input": {
+        "page": "110:14",
+        "docFrame": "110:15",
+        "screenshotArea": "110:395",
+        "sourcePath": "components/forms/Input.jsx",
+        "variantSets": 1,
+        "variantsPerSet": 12,
+        "totalVariants": 12,
+        "axes": {
+          "Size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "State": [
+            "Default",
+            "Focused",
+            "Error",
+            "Disabled"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Placeholder",
+          "Helper text",
+          "Required",
+          "Optional",
+          "Show leading icon",
+          "Show trailing icon",
+          "Leading icon",
+          "Trailing icon"
+        ],
+        "validation": {
+          "status": "input_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "110:395"
+        }
+      },
+      "Textarea": {
+        "page": "113:14",
+        "docFrame": "113:15",
+        "screenshotArea": "113:82",
+        "sourcePath": "components/forms/Textarea.jsx",
+        "variantSets": 1,
+        "variantsPerSet": 8,
+        "totalVariants": 8,
+        "axes": {
+          "Counter": [
+            "Off",
+            "On"
+          ],
+          "State": [
+            "Default",
+            "Focused",
+            "Error",
+            "Disabled"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Value",
+          "Helper text",
+          "Count"
+        ],
+        "validation": {
+          "status": "textarea_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "113:82"
+        }
+      },
+      "Select": {
+        "page": "115:14",
+        "docFrame": "115:15",
+        "screenshotArea": "115:135",
+        "sourcePath": "components/forms/Select.jsx",
+        "variantSets": 1,
+        "variantsPerSet": 15,
+        "totalVariants": 15,
+        "axes": {
+          "Size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "State": [
+            "Placeholder",
+            "Default",
+            "Focused",
+            "Error",
+            "Disabled"
+          ]
+        },
+        "componentProperties": [
+          "Label",
+          "Value",
+          "Helper text"
+        ],
+        "validation": {
+          "status": "select_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "115:135"
+        }
+      },
+      "Avatar": {
+        "page": "118:14",
+        "docFrame": "118:15",
+        "screenshotArea": "118:281",
+        "sourcePath": "components/data-display/Avatar.jsx",
+        "variantSets": 2,
+        "variantsPerSet": 25,
+        "totalVariants": 50,
+        "axes": {
+          "Shape": [
+            "Circle",
+            "Square"
+          ],
+          "Size": [
+            "XS",
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+          ],
+          "Status": [
+            "None",
+            "Online",
+            "Away",
+            "Busy",
+            "Offline"
+          ]
+        },
+        "componentProperties": [
+          "Initials"
+        ],
+        "relatedComponents": {
+          "Avatar/Group": "118:252"
+        },
+        "validation": {
+          "status": "avatar_validated",
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "118:281"
+        }
+      },
+      "Badge": {
+        "status": "validated",
+        "pageId": "120:14",
+        "documentationFrameId": "120:15",
+        "screenshotFrameId": "120:315",
+        "variantSets": 4,
+        "variantsPerSet": 21,
+        "totalVariants": 84,
+        "axes": [
+          "Tone",
+          "Size"
+        ],
+        "properties": [
+          "Label",
+          "Show dot"
+        ],
+        "source": [
+          "components/data-display/Badge.jsx",
+          "components/data-display/Badge.d.ts"
+        ]
+      },
+      "Tag": {
+        "status": "validated",
+        "pageId": "121:14",
+        "documentationFrameId": "121:15",
+        "componentSetId": "121:47",
+        "screenshotFrameId": "121:54",
+        "totalVariants": 8,
+        "axes": [
+          "Dot",
+          "Removable",
+          "State"
+        ],
+        "properties": [
+          "Label"
+        ],
+        "source": [
+          "components/data-display/Tag.jsx",
+          "components/data-display/Tag.d.ts"
+        ]
+      },
+      "Card": {
+        "status": "validated",
+        "pageId": "125:14",
+        "documentationFrameId": "125:15",
+        "screenshotFrameId": "125:511",
+        "variantSets": 3,
+        "variantsPerSet": 12,
+        "totalVariants": 36,
+        "axes": [
+          "Media",
+          "Interactive",
+          "State"
+        ],
+        "properties": [
+          "Title",
+          "Subtitle",
+          "Body"
+        ],
+        "source": [
+          "components/data-display/Card.jsx",
+          "components/data-display/Card.d.ts"
+        ],
+        "validation": {
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "125:511"
+        },
+        "notes": [
+          "Initial Figma attempts failed atomically on enum and child-sizing order; successful retry created clean final state."
+        ]
+      },
+      "Table": {
+        "status": "validated",
+        "pageId": "128:14",
+        "documentationFrameId": "128:15",
+        "componentSetId": "128:979",
+        "screenshotFrameId": "128:991",
+        "variantSets": 1,
+        "variantsPerSet": 24,
+        "totalVariants": 24,
+        "axes": [
+          "Striped",
+          "Hover",
+          "Density",
+          "Sort"
+        ],
+        "properties": [
+          "Account header",
+          "Status header",
+          "MRR header"
+        ],
+        "source": [
+          "components/data-display/Table.jsx",
+          "components/data-display/Table.d.ts"
+        ],
+        "validation": {
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "128:991"
+        }
+      }
+    },
+    "variableScopeFixes": {
+      "Checkbox": {
+        "component/checkbox/size/md": [
+          "WIDTH_HEIGHT"
+        ],
+        "component/checkbox/radius": [
+          "CORNER_RADIUS"
+        ],
+        "component/checkbox/glyph/checked": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ]
+      },
+      "Input": {
+        "component/input/radius": [
+          "CORNER_RADIUS"
+        ],
+        "component/input/padding-x/md": [
+          "GAP"
+        ]
+      }
+    }
+  },
+  "completedSteps": [
+    "phase0-discovery",
+    "phase1-variable-web-code-syntax",
+    "phase1-variable-scopes",
+    "phase1-text-styles",
+    "phase1-effect-styles",
+    "phase1-validation",
+    "phase2-page-structure",
+    "phase2-getting-started",
+    "phase2-foundations",
+    "phase2-validation",
+    "phase3-button-page",
+    "phase3-button-docs",
+    "phase3-button-icons",
+    "phase3-button-component-sets",
+    "phase3-button-validation",
+    "phase3-iconbutton-page",
+    "phase3-iconbutton-docs",
+    "phase3-iconbutton-component-sets",
+    "phase3-iconbutton-validation",
+    "phase3-checkbox-variable-scopes",
+    "phase3-checkbox-page",
+    "phase3-checkbox-docs",
+    "phase3-checkbox-component-set",
+    "phase3-checkbox-validation",
+    "phase3-radio-page",
+    "phase3-radio-docs",
+    "phase3-radio-component-set",
+    "phase3-radio-validation",
+    "phase3-switch-page",
+    "phase3-switch-docs",
+    "phase3-switch-component-set",
+    "phase3-switch-validation",
+    "phase3-input-variable-scopes",
+    "phase3-input-page",
+    "phase3-input-docs",
+    "phase3-input-component-set",
+    "phase3-input-validation",
+    "phase3-textarea-page",
+    "phase3-textarea-docs",
+    "phase3-textarea-component-set",
+    "phase3-textarea-validation",
+    "phase3-select-page",
+    "phase3-select-docs",
+    "phase3-select-component-set",
+    "phase3-select-validation",
+    "phase3-avatar-page",
+    "phase3-avatar-docs",
+    "phase3-avatar-component-sets",
+    "phase3-avatar-group",
+    "phase3-avatar-validation",
+    "component-badge",
+    "component-tag",
+    "component-card",
+    "component-table"
+  ],
+  "pendingValidations": [],
+  "userCheckpoints": {
+    "phase3-button": "approved-2026-06-20",
+    "phase3-iconbutton": "approved-2026-06-20",
+    "phase3-checkbox": "approved-2026-06-20",
+    "phase3-radio": "auto-approved-standing-approval",
+    "phase3-switch": "auto-approved-standing-approval",
+    "phase3-input": "auto-approved-standing-approval",
+    "phase3-textarea": "auto-approved-standing-approval",
+    "phase3-select": "auto-approved-standing-approval",
+    "phase3-avatar": "auto-approved-standing-approval"
+  },
+  "workflowPreferences": {
+    "phase3ApprovalMode": "standing-approval-after-checkbox"
+  },
+  "checkpoints": {
+    "Badge": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-20",
+      "screenshotFrameId": "120:315"
+    },
+    "Tag": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-20",
+      "screenshotFrameId": "121:54"
+    },
+    "Card": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-20",
+      "screenshotFrameId": "125:511"
+    },
+    "Table": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-20",
+      "screenshotFrameId": "128:991"
+    }
+  }
+}

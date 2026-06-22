@@ -4,7 +4,7 @@
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
   "phase": "phase4-in-progress",
-  "step": "phase4-code-connect-ready",
+  "step": "phase4-code-connect-publish-token-required",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -1253,7 +1253,7 @@
       ]
     },
     "codeConnect": {
-      "status": "ready-for-publish",
+      "status": "ready-for-publish-token-required",
       "config": "figma.config.json",
       "templateCount": 20,
       "includePattern": "components/**/*.figma.ts",
@@ -1263,8 +1263,15 @@
         "all .figma.ts templates passed node --check",
         "template smoke checks passed"
       ],
-      "publishCommand": "FIGMA_ACCESS_TOKEN=<token> npx figma connect publish --config figma.config.json",
-      "note": "Publishing still requires a Figma access token, eligible plan, and published Figma components/team library access."
+      "publishCommand": "FIGMA_ACCESS_TOKEN=<token> npx --yes --package @figma/code-connect figma connect publish --config figma.config.json",
+      "note": "Publishing still requires a Figma access token, eligible plan, and published Figma components/team library access.",
+      "lastPublishAttempt": {
+        "attemptedAt": "2026-06-22",
+        "command": "npx --yes --package @figma/code-connect figma connect publish --config figma.config.json",
+        "result": "blocked",
+        "reason": "FIGMA_ACCESS_TOKEN is not set in this shell."
+      },
+      "configParser": "react"
     },
     "nextRecommendedStep": "publish-code-connect-or-run-final-signoff"
   }

@@ -1,8 +1,14 @@
 {
   "codeConnect": {
-    "include": ["components/**/*.figma.ts"],
-    "exclude": ["**/node_modules/**", "export/**"],
+    "include": [
+      "components/**/*.figma.ts"
+    ],
+    "exclude": [
+      "**/node_modules/**",
+      "export/**"
+    ],
     "label": "Atlas React",
-    "language": "tsx"
+    "language": "tsx",
+    "parser": "react"
   }
 }

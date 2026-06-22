@@ -4,7 +4,7 @@
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
   "phase": "phase4-in-progress",
-  "step": "phase4-qa-audit-complete",
+  "step": "phase4-code-connect-ready",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -1123,7 +1123,8 @@
     "component-tabs",
     "component-dropdown",
     "phase3-components",
-    "phase4-qa-audit"
+    "phase4-qa-audit",
+    "phase4-code-connect-scaffold"
   ],
   "pendingValidations": [],
   "userCheckpoints": {
@@ -1252,10 +1253,19 @@
       ]
     },
     "codeConnect": {
-      "status": "blocked",
-      "reason": "No figma.config.json, no existing .figma.ts templates, and the environment exposes context lookup but not the published-component suggestion tool required to verify Code Connect eligibility.",
-      "nextAction": "Add Figma Code Connect project config after components are published to a team library, then generate .figma.ts templates against published component node IDs."
+      "status": "ready-for-publish",
+      "config": "figma.config.json",
+      "templateCount": 20,
+      "includePattern": "components/**/*.figma.ts",
+      "typeConfig": "tsconfig.json",
+      "validation": [
+        "figma.config.json parses as JSON",
+        "all .figma.ts templates passed node --check",
+        "template smoke checks passed"
+      ],
+      "publishCommand": "FIGMA_ACCESS_TOKEN=<token> npx figma connect publish --config figma.config.json",
+      "note": "Publishing still requires a Figma access token, eligible plan, and published Figma components/team library access."
     },
-    "nextRecommendedStep": "phase4-code-connect-setup-or-final-review-signoff"
+    "nextRecommendedStep": "publish-code-connect-or-run-final-signoff"
   }
 }

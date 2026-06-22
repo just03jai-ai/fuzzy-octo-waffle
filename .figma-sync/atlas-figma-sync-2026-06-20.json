@@ -4,7 +4,7 @@
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
   "phase": "phase3-in-progress",
-  "step": "component-toast-complete",
+  "step": "component-tooltip-complete",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -91,7 +91,8 @@
       "Card": "125:14",
       "Table": "128:14",
       "Alert": "133:14",
-      "Toast": "136:14"
+      "Toast": "136:14",
+      "Tooltip": "138:14"
     },
     "documentationFrames": {
       "Getting Started": "90:14",
@@ -110,7 +111,8 @@
       "Card": "125:15",
       "Table": "128:15",
       "Alert": "133:15",
-      "Toast": "136:15"
+      "Toast": "136:15",
+      "Tooltip": "138:15"
     },
     "phase2Validation": {
       "status": "phase2_validated",
@@ -172,7 +174,8 @@
       "Table": "128:979",
       "Alert": "133:171",
       "Toast": "136:131",
-      "Toaster": "136:174"
+      "Toaster": "136:174",
+      "Tooltip": "138:67"
     },
     "components": {
       "Button": {
@@ -664,6 +667,32 @@
           "screenshot": "rendered",
           "screenshotNodeId": "136:185"
         }
+      },
+      "Tooltip": {
+        "status": "validated",
+        "pageId": "138:14",
+        "documentationFrameId": "138:15",
+        "componentSetId": "138:67",
+        "screenshotFrameId": "138:74",
+        "variantSets": 1,
+        "variantsPerSet": 8,
+        "totalVariants": 8,
+        "axes": [
+          "Side",
+          "State"
+        ],
+        "properties": [
+          "Content"
+        ],
+        "source": [
+          "components/feedback/Tooltip.jsx",
+          "components/feedback/Tooltip.d.ts"
+        ],
+        "validation": {
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "138:74"
+        }
       }
     },
     "variableScopeFixes": {
@@ -745,7 +774,8 @@
     "component-card",
     "component-table",
     "component-alert",
-    "component-toast"
+    "component-toast",
+    "component-tooltip"
   ],
   "pendingValidations": [],
   "userCheckpoints": {
@@ -798,6 +828,12 @@
       "reason": "standing approval after Checkbox",
       "validatedAt": "2026-06-21",
       "screenshotFrameId": "136:185"
+    },
+    "Tooltip": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-21",
+      "screenshotFrameId": "138:74"
     }
   }
 }

@@ -4,7 +4,7 @@
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
   "phase": "phase3-in-progress",
-  "step": "component-tabs-complete",
+  "step": "component-dropdown-complete",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -95,7 +95,8 @@
       "Tooltip": "138:14",
       "Dialog": "142:14",
       "Breadcrumb": "145:14",
-      "Tabs": "149:14"
+      "Tabs": "149:14",
+      "Dropdown": "151:14"
     },
     "documentationFrames": {
       "Getting Started": "90:14",
@@ -118,7 +119,8 @@
       "Tooltip": "138:15",
       "Dialog": "142:15",
       "Breadcrumb": "145:15",
-      "Tabs": "149:15"
+      "Tabs": "149:15",
+      "Dropdown": "151:15"
     },
     "phase2Validation": {
       "status": "phase2_validated",
@@ -189,7 +191,8 @@
         "XLarge": "142:358"
       },
       "Breadcrumb": "145:175",
-      "Tabs": "149:267"
+      "Tabs": "149:267",
+      "Dropdown": "151:175"
     },
     "components": {
       "Button": {
@@ -835,6 +838,49 @@
           "screenshot": "rendered",
           "screenshotNodeId": "149:279"
         }
+      },
+      "Dropdown": {
+        "status": "validated",
+        "pageId": "151:14",
+        "documentationFrameId": "151:15",
+        "componentSetId": "151:175",
+        "screenshotFrameId": "151:183",
+        "variantCount": 8,
+        "axes": [
+          "Align",
+          "Side",
+          "Content"
+        ],
+        "axisValues": {
+          "Align": [
+            "Start",
+            "End"
+          ],
+          "Side": [
+            "Bottom",
+            "Top"
+          ],
+          "Content": [
+            "Basic",
+            "Rich"
+          ]
+        },
+        "properties": [
+          "Trigger",
+          "Item 1",
+          "Item 2",
+          "Item 3",
+          "Item 4"
+        ],
+        "source": [
+          "components/overlays/Dropdown.jsx",
+          "components/overlays/Dropdown.d.ts"
+        ],
+        "validation": {
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "151:183"
+        }
       }
     },
     "variableScopeFixes": {
@@ -920,7 +966,8 @@
     "component-tooltip",
     "component-dialog",
     "component-breadcrumb",
-    "component-tabs"
+    "component-tabs",
+    "component-dropdown"
   ],
   "pendingValidations": [],
   "userCheckpoints": {
@@ -997,6 +1044,12 @@
       "reason": "standing approval after Checkbox",
       "validatedAt": "2026-06-22",
       "screenshotFrameId": "149:279"
+    },
+    "Dropdown": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-22",
+      "screenshotFrameId": "151:183"
     }
   }
 }

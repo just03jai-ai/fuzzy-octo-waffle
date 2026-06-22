@@ -4,7 +4,7 @@
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
   "phase": "phase3-in-progress",
-  "step": "component-dialog-complete",
+  "step": "component-breadcrumb-complete",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -93,7 +93,8 @@
       "Alert": "133:14",
       "Toast": "136:14",
       "Tooltip": "138:14",
-      "Dialog": "142:14"
+      "Dialog": "142:14",
+      "Breadcrumb": "145:14"
     },
     "documentationFrames": {
       "Getting Started": "90:14",
@@ -114,7 +115,8 @@
       "Alert": "133:15",
       "Toast": "136:15",
       "Tooltip": "138:15",
-      "Dialog": "142:15"
+      "Dialog": "142:15",
+      "Breadcrumb": "145:15"
     },
     "phase2Validation": {
       "status": "phase2_validated",
@@ -183,7 +185,8 @@
         "Medium": "142:188",
         "Large": "142:273",
         "XLarge": "142:358"
-      }
+      },
+      "Breadcrumb": "145:175"
     },
     "components": {
       "Button": {
@@ -735,6 +738,52 @@
           "screenshot": "rendered",
           "screenshotNodeId": "142:359"
         }
+      },
+      "Breadcrumb": {
+        "status": "validated",
+        "pageId": "145:14",
+        "documentationFrameId": "145:15",
+        "componentSetId": "145:175",
+        "screenshotFrameId": "145:185",
+        "variantCount": 12,
+        "axes": [
+          "Items",
+          "Icons",
+          "Separator"
+        ],
+        "axisValues": {
+          "Items": [
+            "2",
+            "3",
+            "4"
+          ],
+          "Icons": [
+            "False",
+            "True"
+          ],
+          "Separator": [
+            "Chevron",
+            "Slash"
+          ]
+        },
+        "properties": [
+          "Crumb 1",
+          "Crumb 2",
+          "Crumb 3",
+          "Crumb 4"
+        ],
+        "source": [
+          "components/navigation/Breadcrumb.jsx",
+          "components/navigation/Breadcrumb.d.ts"
+        ],
+        "validation": {
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "145:185",
+          "visualFixes": [
+            "widened separator columns to prevent 4-item overlap"
+          ]
+        }
       }
     },
     "variableScopeFixes": {
@@ -818,7 +867,8 @@
     "component-alert",
     "component-toast",
     "component-tooltip",
-    "component-dialog"
+    "component-dialog",
+    "component-breadcrumb"
   ],
   "pendingValidations": [],
   "userCheckpoints": {
@@ -883,6 +933,12 @@
       "reason": "standing approval after Checkbox",
       "validatedAt": "2026-06-22",
       "screenshotFrameId": "142:359"
+    },
+    "Breadcrumb": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-22",
+      "screenshotFrameId": "145:185"
     }
   }
 }

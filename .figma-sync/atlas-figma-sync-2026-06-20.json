@@ -4,7 +4,7 @@
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
   "phase": "phase3-in-progress",
-  "step": "component-breadcrumb-complete",
+  "step": "component-tabs-complete",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -94,7 +94,8 @@
       "Toast": "136:14",
       "Tooltip": "138:14",
       "Dialog": "142:14",
-      "Breadcrumb": "145:14"
+      "Breadcrumb": "145:14",
+      "Tabs": "149:14"
     },
     "documentationFrames": {
       "Getting Started": "90:14",
@@ -116,7 +117,8 @@
       "Toast": "136:15",
       "Tooltip": "138:15",
       "Dialog": "142:15",
-      "Breadcrumb": "145:15"
+      "Breadcrumb": "145:15",
+      "Tabs": "149:15"
     },
     "phase2Validation": {
       "status": "phase2_validated",
@@ -186,7 +188,8 @@
         "Large": "142:273",
         "XLarge": "142:358"
       },
-      "Breadcrumb": "145:175"
+      "Breadcrumb": "145:175",
+      "Tabs": "149:267"
     },
     "components": {
       "Button": {
@@ -784,6 +787,54 @@
             "widened separator columns to prevent 4-item overlap"
           ]
         }
+      },
+      "Tabs": {
+        "status": "validated",
+        "pageId": "149:14",
+        "documentationFrameId": "149:15",
+        "componentSetId": "149:267",
+        "screenshotFrameId": "149:279",
+        "variantCount": 16,
+        "axes": [
+          "Style",
+          "Active",
+          "Icons",
+          "Badges"
+        ],
+        "axisValues": {
+          "Style": [
+            "Line",
+            "Pill"
+          ],
+          "Active": [
+            "1",
+            "2"
+          ],
+          "Icons": [
+            "False",
+            "True"
+          ],
+          "Badges": [
+            "False",
+            "True"
+          ]
+        },
+        "properties": [
+          "Tab 1",
+          "Tab 2",
+          "Tab 3",
+          "Badge 1",
+          "Badge 2"
+        ],
+        "source": [
+          "components/navigation/Tabs.jsx",
+          "components/navigation/Tabs.d.ts"
+        ],
+        "validation": {
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "149:279"
+        }
       }
     },
     "variableScopeFixes": {
@@ -868,7 +919,8 @@
     "component-toast",
     "component-tooltip",
     "component-dialog",
-    "component-breadcrumb"
+    "component-breadcrumb",
+    "component-tabs"
   ],
   "pendingValidations": [],
   "userCheckpoints": {
@@ -939,6 +991,12 @@
       "reason": "standing approval after Checkbox",
       "validatedAt": "2026-06-22",
       "screenshotFrameId": "145:185"
+    },
+    "Tabs": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-22",
+      "screenshotFrameId": "149:279"
     }
   }
 }

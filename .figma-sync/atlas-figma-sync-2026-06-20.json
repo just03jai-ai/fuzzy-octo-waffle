@@ -4,7 +4,7 @@
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
   "phase": "phase3-in-progress",
-  "step": "component-tooltip-complete",
+  "step": "component-dialog-complete",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -92,7 +92,8 @@
       "Table": "128:14",
       "Alert": "133:14",
       "Toast": "136:14",
-      "Tooltip": "138:14"
+      "Tooltip": "138:14",
+      "Dialog": "142:14"
     },
     "documentationFrames": {
       "Getting Started": "90:14",
@@ -112,7 +113,8 @@
       "Table": "128:15",
       "Alert": "133:15",
       "Toast": "136:15",
-      "Tooltip": "138:15"
+      "Tooltip": "138:15",
+      "Dialog": "142:15"
     },
     "phase2Validation": {
       "status": "phase2_validated",
@@ -175,7 +177,13 @@
       "Alert": "133:171",
       "Toast": "136:131",
       "Toaster": "136:174",
-      "Tooltip": "138:67"
+      "Tooltip": "138:67",
+      "Dialog": {
+        "Small": "142:103",
+        "Medium": "142:188",
+        "Large": "142:273",
+        "XLarge": "142:358"
+      }
     },
     "components": {
       "Button": {
@@ -693,6 +701,40 @@
           "screenshot": "rendered",
           "screenshotNodeId": "138:74"
         }
+      },
+      "Dialog": {
+        "status": "validated",
+        "pageId": "142:14",
+        "documentationFrameId": "142:15",
+        "componentSets": {
+          "Small": "142:103",
+          "Medium": "142:188",
+          "Large": "142:273",
+          "XLarge": "142:358"
+        },
+        "screenshotFrameId": "142:359",
+        "variantSets": 4,
+        "variantsPerSet": 8,
+        "totalVariants": 32,
+        "axes": [
+          "Align",
+          "Footer",
+          "Close"
+        ],
+        "properties": [
+          "Title",
+          "Description",
+          "Body"
+        ],
+        "source": [
+          "components/feedback/Dialog.jsx",
+          "components/feedback/Dialog.d.ts"
+        ],
+        "validation": {
+          "metadata": "passed",
+          "screenshot": "rendered",
+          "screenshotNodeId": "142:359"
+        }
       }
     },
     "variableScopeFixes": {
@@ -775,7 +817,8 @@
     "component-table",
     "component-alert",
     "component-toast",
-    "component-tooltip"
+    "component-tooltip",
+    "component-dialog"
   ],
   "pendingValidations": [],
   "userCheckpoints": {
@@ -834,6 +877,12 @@
       "reason": "standing approval after Checkbox",
       "validatedAt": "2026-06-21",
       "screenshotFrameId": "138:74"
+    },
+    "Dialog": {
+      "status": "auto-approved",
+      "reason": "standing approval after Checkbox",
+      "validatedAt": "2026-06-22",
+      "screenshotFrameId": "142:359"
     }
   }
 }

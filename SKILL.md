@@ -1,5 +1,5 @@
 ---
-name: design
+name: Design System
 description: Use this skill to generate well-branded interfaces and assets for Atlas, a scalable industry-wide design system for SaaS, mobile, dashboards, AI products, internal tools and marketplaces — either for production or throwaway prototypes/mocks. Contains essential design guidelines, colors, type, fonts, tokens, and UI kit components for prototyping.
 user-invocable: true
 ---

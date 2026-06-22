@@ -3,8 +3,8 @@
   "fileKey": "1sDGtO7k7eCxT9vbnRZeeq",
   "fileName": "Global UI Industry Wide",
   "branch": "figma-collaboration",
-  "phase": "phase3-complete",
-  "step": "phase3-components-complete",
+  "phase": "phase4-in-progress",
+  "step": "phase4-qa-audit-complete",
   "source": {
     "typography": "tokens/typography.css",
     "effects": "tokens/semantic.css",
@@ -237,7 +237,30 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "97:724"
-        }
+        },
+        "status": "validated",
+        "pageId": "95:14",
+        "documentationFrameId": "95:15",
+        "screenshotFrameId": "97:724",
+        "componentSets": {
+          "Primary": "97:149",
+          "Secondary": "97:285",
+          "Ghost": "97:421",
+          "Destructive": "97:557",
+          "Link": "97:693"
+        },
+        "source": [
+          "components/forms/Button.jsx",
+          "components/forms/Button.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Show leading icon",
+          "Show trailing icon",
+          "Loading",
+          "Leading icon",
+          "Trailing icon"
+        ]
       },
       "IconButton": {
         "page": "101:14",
@@ -275,7 +298,24 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "101:446"
-        }
+        },
+        "status": "validated",
+        "pageId": "101:14",
+        "documentationFrameId": "101:15",
+        "screenshotFrameId": "101:446",
+        "componentSets": {
+          "Ghost": "101:305",
+          "Solid": "101:366",
+          "Outline": "101:427"
+        },
+        "source": [
+          "components/forms/IconButton.jsx",
+          "components/forms/IconButton.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Icon"
+        ]
       },
       "Checkbox": {
         "page": "103:14",
@@ -307,7 +347,20 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "103:162"
-        }
+        },
+        "status": "validated",
+        "pageId": "103:14",
+        "documentationFrameId": "103:15",
+        "screenshotFrameId": "103:162",
+        "componentSetId": "103:152",
+        "source": [
+          "components/forms/Checkbox.jsx",
+          "components/forms/Checkbox.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Description"
+        ]
       },
       "Radio": {
         "page": "105:14",
@@ -337,7 +390,20 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "105:73"
-        }
+        },
+        "status": "validated",
+        "pageId": "105:14",
+        "documentationFrameId": "105:15",
+        "screenshotFrameId": "105:73",
+        "componentSetId": "105:68",
+        "source": [
+          "components/forms/Radio.jsx",
+          "components/forms/Radio.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Description"
+        ]
       },
       "Switch": {
         "page": "107:14",
@@ -372,7 +438,20 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "107:169"
-        }
+        },
+        "status": "validated",
+        "pageId": "107:14",
+        "documentationFrameId": "107:15",
+        "screenshotFrameId": "107:169",
+        "componentSetId": "107:164",
+        "source": [
+          "components/forms/Switch.jsx",
+          "components/forms/Switch.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Description"
+        ]
       },
       "Input": {
         "page": "110:14",
@@ -411,7 +490,27 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "110:395"
-        }
+        },
+        "status": "validated",
+        "pageId": "110:14",
+        "documentationFrameId": "110:15",
+        "screenshotFrameId": "110:395",
+        "componentSetId": "110:389",
+        "source": [
+          "components/forms/Input.jsx",
+          "components/forms/Input.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Placeholder",
+          "Helper text",
+          "Required",
+          "Optional",
+          "Show leading icon",
+          "Show trailing icon",
+          "Leading icon",
+          "Trailing icon"
+        ]
       },
       "Textarea": {
         "page": "113:14",
@@ -444,7 +543,22 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "113:82"
-        }
+        },
+        "status": "validated",
+        "pageId": "113:14",
+        "documentationFrameId": "113:15",
+        "screenshotFrameId": "113:82",
+        "componentSetId": "113:76",
+        "source": [
+          "components/forms/Textarea.jsx",
+          "components/forms/Textarea.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Value",
+          "Helper text",
+          "Count"
+        ]
       },
       "Select": {
         "page": "115:14",
@@ -478,7 +592,21 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "115:135"
-        }
+        },
+        "status": "validated",
+        "pageId": "115:14",
+        "documentationFrameId": "115:15",
+        "screenshotFrameId": "115:135",
+        "componentSetId": "115:128",
+        "source": [
+          "components/forms/Select.jsx",
+          "components/forms/Select.d.ts"
+        ],
+        "properties": [
+          "Label",
+          "Value",
+          "Helper text"
+        ]
       },
       "Avatar": {
         "page": "118:14",
@@ -519,7 +647,22 @@
           "metadata": "passed",
           "screenshot": "rendered",
           "screenshotNodeId": "118:281"
-        }
+        },
+        "status": "validated",
+        "pageId": "118:14",
+        "documentationFrameId": "118:15",
+        "screenshotFrameId": "118:281",
+        "componentSets": {
+          "Circle": "118:135",
+          "Square": "118:251"
+        },
+        "source": [
+          "components/data-display/Avatar.jsx",
+          "components/data-display/Avatar.d.ts"
+        ],
+        "properties": [
+          "Initials"
+        ]
       },
       "Badge": {
         "status": "validated",
@@ -540,7 +683,13 @@
         "source": [
           "components/data-display/Badge.jsx",
           "components/data-display/Badge.d.ts"
-        ]
+        ],
+        "componentSets": {
+          "Soft/Rounded": "120:82",
+          "Soft/Pill": "120:156",
+          "Solid/Rounded": "120:230",
+          "Solid/Pill": "120:304"
+        }
       },
       "Tag": {
         "status": "validated",
@@ -591,7 +740,12 @@
         },
         "notes": [
           "Initial Figma attempts failed atomically on enum and child-sizing order; successful retry created clean final state."
-        ]
+        ],
+        "componentSets": {
+          "Flat": "125:175",
+          "Raised": "125:339",
+          "Elevated": "125:503"
+        }
       },
       "Table": {
         "status": "validated",
@@ -968,7 +1122,8 @@
     "component-breadcrumb",
     "component-tabs",
     "component-dropdown",
-    "phase3-components"
+    "phase3-components",
+    "phase4-qa-audit"
   ],
   "pendingValidations": [],
   "userCheckpoints": {
@@ -1060,5 +1215,47 @@
     "figmaComponentCount": 20,
     "missingComponents": [],
     "nextPhase": "phase4-integration-qa"
+  },
+  "phase4QA": {
+    "status": "passed-with-notes",
+    "validatedAt": "2026-06-22",
+    "branch": "phase-4",
+    "scope": "Phase 4 integration and QA initial pass",
+    "repo": {
+      "packageScriptsAvailable": false,
+      "componentSourceCount": 20,
+      "ledgerComponentCount": 20,
+      "missingSourceMappings": []
+    },
+    "figma": {
+      "componentPagesMissing": 0,
+      "documentationFramesMissing": 0,
+      "componentSetsMissing": 0,
+      "componentSetsAudited": 37,
+      "variantsAudited": 504,
+      "expectedVariants": 501,
+      "unnamedVariants": 0,
+      "duplicatePageNames": 0,
+      "untaggedPages": 0,
+      "untaggedDocumentationFrames": 0,
+      "untaggedComponentSets": 0,
+      "visualBindingRatio": 0.968,
+      "hardcodedVisualNodeCount": 105,
+      "hardcodedVisualNote": "Remaining hardcoded samples are primarily component-set frames, focus/disabled variant surfaces, and intentional fixed geometry; no blocking missing bindings found in primary structure."
+    },
+    "accessibility": {
+      "status": "reviewed-with-notes",
+      "notes": [
+        "Programmatic small-target samples were false positives on nested text labels inside larger interactive containers.",
+        "Focus states exist across core interactive variants from Phase 3 component matrices.",
+        "Disabled and danger rows are visually differentiated in validated screenshots."
+      ]
+    },
+    "codeConnect": {
+      "status": "blocked",
+      "reason": "No figma.config.json, no existing .figma.ts templates, and the environment exposes context lookup but not the published-component suggestion tool required to verify Code Connect eligibility.",
+      "nextAction": "Add Figma Code Connect project config after components are published to a team library, then generate .figma.ts templates against published component node IDs."
+    },
+    "nextRecommendedStep": "phase4-code-connect-setup-or-final-review-signoff"
   }
 }
